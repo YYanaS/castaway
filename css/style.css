@@ -21,6 +21,14 @@ h2 {
   font-size: 4.5714rem;
 }
 
+h3 {
+  font-size: 1.5714rem;
+}
+
+h4 {
+  font-size: 1.4286rem;
+}
+
 html {
   font-size: 14px;
 }
@@ -112,6 +120,8 @@ body main .menu .menu__1 {
   background-color: black;
   display: flex;
   padding: 2.8571rem;
+  margin: 0 0 4.2857rem 0;
+  border-radius: 2.2857rem;
 }
 body main .menu .text__menu {
   margin: 0 0 0 3.7857rem;
@@ -136,4 +146,48 @@ body main .menu .text__menu button {
   margin: 2.2857rem 0 0 0;
   width: 14.8571rem;
   height: 3.6428rem;
+}
+body main .person {
+  margin: 11.4286rem 0 0 0;
+}
+body main .person .feedback {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 7.1429rem 0;
+}
+body main .person .text__person {
+  margin: 0 6.7143rem 0 0;
+}
+body main .person .arrow {
+  width: 7.7143rem;
+  margin: 2rem 0 0 0;
+}
+body main .person .round {
+  width: 8rem;
+  height: 8rem;
+  background-color: #118DA8;
+  border-radius: 50%;
+  margin: -6.69rem 0 1.4286rem 0;
+}
+body main .person .text__h3 {
+  margin: 2rem 0 3.3571rem 0;
+}
+body main .person h3 {
+  color: rgba(255, 255, 255, 0.7);
+}
+body main .person h4 {
+  color: #118DA8;
+}
+body main .person .shape {
+  margin: 7.1429rem 3.5714rem;
+  padding: 4.2143rem 4.2857rem 5.3657rem 4.2857rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+body main .person .text__shape {
+  width: 30.7857rem;
+}
+body main .person .text__shape p {
+  font-size: 5.1429rem;
 }/*# sourceMappingURL=style.css.map */

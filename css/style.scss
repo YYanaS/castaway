@@ -26,6 +26,14 @@ h2{
     font-size: 4.5714rem;
 }
 
+h3{
+    font-size: 1.5714rem;
+}
+
+h4{
+    font-size: 1.4286rem;
+}
+
 html{
     font-size: 14px;
 }
@@ -132,6 +140,8 @@ body{
                 background-color: black;
                 display: flex;
                 padding: 2.8571rem;
+                margin: 0 0 4.2857rem 0;
+                border-radius: 2.2857rem;
             }
 
             .text__menu{
@@ -163,7 +173,61 @@ body{
                 }
             }
 
+        }
 
+        .person{
+            margin: 11.4286rem 0 0 0;
+
+            .feedback{
+                display: flex;
+                justify-content: space-between;
+                margin: 0 0 7.1429rem 0;
+            }
+
+            .text__person{
+                margin: 0 6.7143rem 0 0;
+            }
+
+            .arrow{
+                width: 7.7143rem;
+                margin: 2rem 0 0 0;
+            }
+
+            .round{
+                width: 8rem;
+                height: 8rem;
+                background-color: #118DA8;
+                border-radius: 50%;
+                margin: -6.69rem 0 1.4286rem 0;
+            }
+
+            .text__h3{
+                margin: 2rem 0 3.3571rem 0;
+            }
+            
+            h3{
+                color: rgba(255, 255, 255, 0.700);
+            }
+
+            h4{
+                color: #118DA8;
+            }
+
+            .shape{
+                margin: 7.1429rem 3.5714rem;
+                padding: 4.2143rem 4.2857rem 5.3657rem 4.2857rem;
+                background-color: black;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .text__shape{
+                width: 30.7857rem;
+
+                p{
+                    font-size: 5.1429rem;
+                }
+            }
 
 
 
