@@ -1,0 +1,177 @@
+// Шрифты
+
+//Montserrat
+@font-face {
+    font-family: "DMSans-Bold";
+    src: url('../fonts/DMSanst-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DMSans-Regular";
+    src: url('../fonts/DMSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1, h2, h3, h4, p{
+    font-family: DMSans-Regular;
+    color: white;
+}
+
+h2{
+    font-size: 4.5714rem;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    margin: auto;
+    font-size: 14px;
+    width: 1440px;
+    background-color: #191919;
+
+    header{
+        display: flex;
+        margin: 1.8571em 0;
+        padding: 1.2357em 3.6129em;
+        justify-content: space-between;
+        font-size: 14px;
+        align-items: center;
+
+        .menu__header{
+            width: 28.7857em;
+            padding: 1.4285em;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        img{
+            width: 11.3671em;
+            height: 2.33em
+        }
+
+        a{
+            color: white;
+            font-family: DMSans-Regular;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        .color__menu{
+            color: #118DA8;
+        }
+    }
+
+    main{
+        margin: 2.8517rem 5rem 0 5rem;
+        
+        .promo{
+            display: flex;
+
+            .promo__img{
+                width: 46.4285rem;
+                height: 62.3571rem;
+                border-radius: 0.8rem;
+            }
+
+            .slogan{
+                position: relative;
+
+                h1{
+                    margin: 23.8571rem 0 0 4.3571rem;
+                    font-size: 5.3571rem;               
+                }
+                
+                .line{
+                    margin: -1rem 0 0 4.3571rem;
+                    position: absolute;
+                }
+
+                .icons{
+                    margin: 6.4285rem 0 0 5.8571rem;
+                }
+                
+                .p{
+                    font-size: 1.0714rem;
+                }
+
+                .icons__img{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 17.5rem;
+                }
+            }
+        }
+
+        .menu{
+            margin: 6.6429rem 0 0 0;
+
+            .heading__menu{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0 0 2.8571rem 0;
+            }
+            
+            button{
+                width: 12.7142rem;
+                height: 3.6428rem;
+                border-radius: 0.4285rem;
+                background-color: #118DA8;
+                font-size: 1.2143rem;
+                color: white;
+            }
+
+            .menu__1{
+                background-color: black;
+                display: flex;
+                padding: 2.8571rem;
+            }
+
+            .text__menu{
+                margin: 0 0 0 3.7857rem;
+                width: 50.5rem;
+
+                h4{
+                    background-color: #191919;
+                    padding: 0 0.8rem;
+                    border-radius: 0.4285rem;
+                    display: inline-block;
+                }
+
+                p{
+                    margin: 3.4678rem 0 0 0;
+                    color: #118DA8;
+                }
+
+                h3{
+                    margin: 3rem 0 0 0;
+                    color: rgba(255, 255, 255, 0.7);
+                    font-size: 1.5714rem;
+                }
+
+                button{
+                    margin: 2.2857rem 0 0 0;
+                    width: 14.8571rem;
+                    height: 3.6428rem;
+                }
+            }
+
+
+
+
+
+        }
+
+    }
+
+
+
+
+}

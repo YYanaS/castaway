@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <title>Castaway</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <footer>
+    <header>
         <img src="img/logo.png" alt="logo">
-        <a href="">Home</a>
-        <a href="">Episodes</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
-    </footer>
+        <div class="menu__header">
+            <a class="color__menu" href="">Home</a>
+            <a href="">Episodes</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </div>
+    </header>
     <main>
        <section class="promo">
            <img class="promo__img" src="img/man1.png" alt="man">
            <div class="slogan">
-               <h1>Take your podcast to the next level</h1>
-               <img src="img/Vector (1).png" alt="line">
+               <h1>Take your podcast to the next <span>level</span> </h1>
+               <img class="line" src="img/Vector (1).png" alt="line">
                <div class="icons">
                    <p>Listen on</p>
                    <div class="icons__img">
@@ -49,11 +51,13 @@
             </div>
            <div class="menu__1">
                <img src="img/IMAGE1.png" alt="remote">
-               <h4>Gear</h4>
-               <p>Episode</p>
-               <h2>Should you get outboard audio gear?</h2>
-               <h3>Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</h3>
-               <button>View Episode Details</button>
+               <div class="text__menu">
+                    <h4>Gear</h4>
+                    <p>Episode</p>
+                    <h2>Should you get outboard audio gear?</h2>
+                    <h3>Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</h3>
+                    <button>View Episode Details</button>
+                </div>
            </div>
            <div class="menu__1">
                <img src="img/IMAGE2.png" alt="microphone">
@@ -169,7 +173,7 @@
             </div>
        </section>
     </main>
-    <header>
+    <footer>
         <div class="logo">
             <img src="" alt="">
             <div class="icons">
@@ -209,6 +213,6 @@
                 <img src="img/icon4.png" alt="icons">
             </a>
         </div>
-    </header>
+    </footer>
 </body>
 </html>
