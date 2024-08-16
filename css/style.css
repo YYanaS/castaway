@@ -63,8 +63,16 @@ body header a {
   text-decoration: none;
   font-size: 1.2em;
 }
-body header .color__menu {
-  color: #118DA8;
+body header a:hover {
+  animation: ch-color-1 0.2s forwards;
+}
+@keyframes ch-color-1 {
+  from {
+    color: rgb(255, 255, 255);
+  }
+  to {
+    color: #118DA8;
+  }
 }
 body main {
   margin: 2.8517rem 5rem 0 5rem;
@@ -91,8 +99,9 @@ body main .promo .slogan .line {
 body main .promo .slogan .icons {
   margin: 6.4285rem 0 0 5.8571rem;
 }
-body main .promo .slogan .p {
+body main .promo .slogan p {
   font-size: 1.0714rem;
+  margin-bottom: 1.1428rem;
 }
 body main .promo .slogan .icons__img {
   display: flex;
@@ -148,7 +157,8 @@ body main .menu .text__menu button {
   height: 3.6428rem;
 }
 body main .person {
-  margin: 11.4286rem 0 0 0;
+  margin: 11.4286rem 0 7.14rem 0;
+  position: relative;
 }
 body main .person .feedback {
   display: flex;
@@ -184,10 +194,90 @@ body main .person .shape {
   background-color: black;
   display: flex;
   justify-content: space-between;
+  border-radius: 2.2857rem;
 }
 body main .person .text__shape {
   width: 30.7857rem;
 }
 body main .person .text__shape p {
   font-size: 5.1429rem;
+}
+body main .person form {
+  display: flex;
+  flex-direction: column;
+}
+body main .person form input {
+  width: 37.29rem;
+  height: 5.86rem;
+  border-radius: 0.43rem;
+  font-size: 1.7142rem;
+  padding: 1.86rem 1.36rem;
+  background-color: #191919;
+  margin-bottom: 1.4285rem;
+  border: none;
+}
+body main .person form button {
+  width: 6.2142rem;
+  height: 2rem;
+  border-radius: 0.43rem;
+  background-color: #118DA8;
+  color: rgba(254, 254, 254, 0.7);
+  font-size: 1.07rem;
+}
+body main .person .line__shape {
+  margin-top: -11rem;
+  position: absolute;
+  width: 10.5rem;
+  height: 6.5rem;
+}
+body main .estimation {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 7.14rem 0;
+}
+body main .estimation .estimation__1 {
+  width: 29.21rem;
+  height: 22.93rem;
+  padding: 3.86rem 4.29rem 3.64rem 3.57rem;
+  background-color: black;
+  border-radius: 2.29rem;
+  margin: 0 1.14rem 1.14rem 0;
+}
+body main .estimation .estimation__1 p {
+  font-size: 2.57rem;
+  margin: 1.5rem 0;
+}
+body footer {
+  padding: 7.1428rem 5rem;
+  display: flex;
+}
+body footer .logo__footer {
+  width: 31.9385rem;
+  height: 14.8571rem;
+}
+body footer .logo__footer .logo__2 {
+  width: 15.9157rem;
+  height: 3.2478rem;
+  margin: 0 0 1.4571rem 0;
+}
+body footer .logo__footer .icons img {
+  margin-right: 0.7142rem;
+}
+body footer .menu__footer, body footer .menu2__footer {
+  display: flex;
+  flex-direction: column;
+  width: 12.7742rem;
+  height: 15.8571rem;
+}
+body footer a {
+  font-family: DMSans-Regular;
+  font-size: 1.2142rem;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 0.7142rem;
+}
+body footer .icons__img {
+  display: flex;
+  justify-content: space-between;
+  width: 17.5rem;
 }/*# sourceMappingURL=style.css.map */
