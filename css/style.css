@@ -32,38 +32,35 @@ h4 {
 html {
   font-size: 14px;
 }
-
-body {
+html body {
   margin: auto;
-  font-size: 14px;
   width: 1440px;
   background-color: #191919;
 }
-body header {
+html body header {
   display: flex;
   margin: 1.8571em 0;
   padding: 1.2357em 3.6129em;
   justify-content: space-between;
-  font-size: 14px;
   align-items: center;
 }
-body header .menu__header {
+html body header .menu__header {
   width: 28.7857em;
   padding: 1.4285em;
   display: flex;
   justify-content: space-between;
 }
-body header img {
+html body header img {
   width: 11.3671em;
   height: 2.33em;
 }
-body header a {
+html body header a {
   color: white;
   font-family: DMSans-Regular;
   text-decoration: none;
   font-size: 1.2em;
 }
-body header a:hover {
+html body header a:hover {
   animation: ch-color-1 0.2s forwards;
 }
 @keyframes ch-color-1 {
@@ -74,50 +71,50 @@ body header a:hover {
     color: #118DA8;
   }
 }
-body main {
+html body main {
   margin: 2.8517rem 5rem 0 5rem;
 }
-body main .promo {
+html body main .promo {
   display: flex;
 }
-body main .promo .promo__img {
+html body main .promo .promo__img {
   width: 46.4285rem;
   height: 62.3571rem;
   border-radius: 0.8rem;
 }
-body main .promo .slogan {
+html body main .promo .slogan {
   position: relative;
 }
-body main .promo .slogan h1 {
+html body main .promo .slogan h1 {
   margin: 23.8571rem 0 0 4.3571rem;
   font-size: 5.3571rem;
 }
-body main .promo .slogan .line {
+html body main .promo .slogan .line {
   margin: -1rem 0 0 4.3571rem;
   position: absolute;
 }
-body main .promo .slogan .icons {
+html body main .promo .slogan .icons {
   margin: 6.4285rem 0 0 5.8571rem;
 }
-body main .promo .slogan p {
+html body main .promo .slogan p {
   font-size: 1.0714rem;
   margin-bottom: 1.1428rem;
 }
-body main .promo .slogan .icons__img {
+html body main .promo .slogan .icons__img {
   display: flex;
   justify-content: space-between;
   width: 17.5rem;
 }
-body main .menu {
+html body main .menu {
   margin: 6.6429rem 0 0 0;
 }
-body main .menu .heading__menu {
+html body main .menu .heading__menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 0 2.8571rem 0;
 }
-body main .menu button {
+html body main .menu button {
   width: 12.7142rem;
   height: 3.6428rem;
   border-radius: 0.4285rem;
@@ -125,70 +122,70 @@ body main .menu button {
   font-size: 1.2143rem;
   color: white;
 }
-body main .menu .menu__1 {
+html body main .menu .menu__1 {
   background-color: black;
   display: flex;
   padding: 2.8571rem;
   margin: 0 0 4.2857rem 0;
   border-radius: 2.2857rem;
 }
-body main .menu .text__menu {
+html body main .menu .text__menu {
   margin: 0 0 0 3.7857rem;
   width: 50.5rem;
 }
-body main .menu .text__menu h4 {
+html body main .menu .text__menu h4 {
   background-color: #191919;
   padding: 0 0.8rem;
   border-radius: 0.4285rem;
   display: inline-block;
 }
-body main .menu .text__menu p {
+html body main .menu .text__menu p {
   margin: 3.4678rem 0 0 0;
   color: #118DA8;
 }
-body main .menu .text__menu h3 {
+html body main .menu .text__menu h3 {
   margin: 3rem 0 0 0;
   color: rgba(255, 255, 255, 0.7);
   font-size: 1.5714rem;
 }
-body main .menu .text__menu button {
+html body main .menu .text__menu button {
   margin: 2.2857rem 0 0 0;
   width: 14.8571rem;
   height: 3.6428rem;
 }
-body main .person {
+html body main .person {
   margin: 11.4286rem 0 7.14rem 0;
   position: relative;
 }
-body main .person .feedback {
+html body main .person .feedback {
   display: flex;
   justify-content: space-between;
   margin: 0 0 7.1429rem 0;
 }
-body main .person .text__person {
+html body main .person .text__person {
   margin: 0 6.7143rem 0 0;
 }
-body main .person .arrow {
+html body main .person .arrow {
   width: 7.7143rem;
   margin: 2rem 0 0 0;
 }
-body main .person .round {
+html body main .person .round {
   width: 8rem;
   height: 8rem;
   background-color: #118DA8;
   border-radius: 50%;
   margin: -6.69rem 0 1.4286rem 0;
 }
-body main .person .text__h3 {
+html body main .person .text__h3 {
   margin: 2rem 0 3.3571rem 0;
 }
-body main .person h3 {
+html body main .person h3 {
   color: rgba(255, 255, 255, 0.7);
 }
-body main .person h4 {
+html body main .person h4 {
   color: #118DA8;
 }
-body main .person .shape {
+html body main .person .shape {
   margin: 7.1429rem 3.5714rem;
   padding: 4.2143rem 4.2857rem 5.3657rem 4.2857rem;
   background-color: black;
@@ -196,17 +193,17 @@ body main .person .shape {
   justify-content: space-between;
   border-radius: 2.2857rem;
 }
-body main .person .text__shape {
+html body main .person .text__shape {
   width: 30.7857rem;
 }
-body main .person .text__shape p {
+html body main .person .text__shape p {
   font-size: 5.1429rem;
 }
-body main .person form {
+html body main .person form {
   display: flex;
   flex-direction: column;
 }
-body main .person form input {
+html body main .person form input {
   width: 37.29rem;
   height: 5.86rem;
   border-radius: 0.43rem;
@@ -216,7 +213,7 @@ body main .person form input {
   margin-bottom: 1.4285rem;
   border: none;
 }
-body main .person form button {
+html body main .person form button {
   width: 6.2142rem;
   height: 2rem;
   border-radius: 0.43rem;
@@ -224,18 +221,18 @@ body main .person form button {
   color: rgba(254, 254, 254, 0.7);
   font-size: 1.07rem;
 }
-body main .person .line__shape {
+html body main .person .line__shape {
   margin-top: -11rem;
   position: absolute;
   width: 10.5rem;
   height: 6.5rem;
 }
-body main .estimation {
+html body main .estimation {
   display: flex;
   flex-wrap: wrap;
   margin: 7.14rem 0;
 }
-body main .estimation .estimation__1 {
+html body main .estimation .estimation__1 {
   width: 29.21rem;
   height: 22.93rem;
   padding: 3.86rem 4.29rem 3.64rem 3.57rem;
@@ -243,41 +240,72 @@ body main .estimation .estimation__1 {
   border-radius: 2.29rem;
   margin: 0 1.14rem 1.14rem 0;
 }
-body main .estimation .estimation__1 p {
+html body main .estimation .estimation__1 p {
   font-size: 2.57rem;
   margin: 1.5rem 0;
 }
-body footer {
+html body footer {
   padding: 7.1428rem 5rem;
   display: flex;
 }
-body footer .logo__footer {
+html body footer .logo__footer {
   width: 31.9385rem;
   height: 14.8571rem;
 }
-body footer .logo__footer .logo__2 {
+html body footer .logo__footer .logo__2 {
   width: 15.9157rem;
   height: 3.2478rem;
   margin: 0 0 1.4571rem 0;
 }
-body footer .logo__footer .icons img {
+html body footer .logo__footer .icons img {
   margin-right: 0.7142rem;
 }
-body footer .menu__footer, body footer .menu2__footer {
+html body footer .menu__footer, html body footer .menu2__footer {
   display: flex;
   flex-direction: column;
   width: 12.7742rem;
   height: 15.8571rem;
 }
-body footer a {
+html body footer a {
   font-family: DMSans-Regular;
   font-size: 1.2142rem;
   text-decoration: none;
   color: white;
   margin-bottom: 0.7142rem;
 }
-body footer .icons__img {
+html body footer .icons__img {
   display: flex;
   justify-content: space-between;
   width: 17.5rem;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media (max-width: 640px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 8px;
+  }
 }/*# sourceMappingURL=style.css.map */
