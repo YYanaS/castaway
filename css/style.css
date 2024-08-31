@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "DMSans-Bold";
   src: url("../fonts/DMSanst-Bold.woff2") format("woff2");
@@ -47,8 +48,8 @@ html body header {
 html body header .menu__header {
   width: 28.7857em;
   padding: 1.4285em;
-  display: flex;
   justify-content: space-between;
+  display: flex;
 }
 html body header img {
   width: 11.3671em;
@@ -71,6 +72,86 @@ html body header a:hover {
     color: #118DA8;
   }
 }
+html body header .menu__mobile {
+  display: none;
+}
+html body header .burger-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+html body header .burger {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  display: block;
+  border: none;
+  background: transparent;
+  width: 40px;
+  height: 26px;
+}
+html body header .burger::before,
+html body header .burger::after {
+  content: "";
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+html body header .burger::before {
+  top: 0;
+  box-shadow: 0 11px 0 #ffffff;
+  transition: box-shadow 0.3s 0.15s, top 0.3s 0.15s, transform 0.3s;
+}
+html body header .burger::after {
+  bottom: 0;
+  transition: bottom 0.3s 0.15s, transform 0.3s;
+}
+html body header .burger-checkbox:checked + .burger::before {
+  top: 11px;
+  transform: rotate(45deg);
+  box-shadow: 0 6px 0 rgba(255, 255, 255, 0);
+  transition: box-shadow 0.15s, top 0.3s, transform 0.3s 0.15s;
+}
+html body header .burger-checkbox:checked + .burger::after {
+  bottom: 11px;
+  transform: rotate(-45deg);
+  transition: bottom 0.3s, transform 0.3s 0.15s;
+}
+html body header .menu-list {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: grid;
+  gap: 12px;
+  padding: 42px 0;
+  margin: 0;
+  background: rgba(26, 27, 32, 0.3254901961);
+  backdrop-filter: blur(10px); /* эффект размытия */
+  -webkit-backdrop-filter: blur(10px); /* для поддержки Safari */
+  list-style-type: none;
+  transform: translateY(-100%);
+  width: 102rem;
+  z-index: 1;
+  opacity: 1;
+  transition: 0.8s;
+}
+html body header .menu-item {
+  display: block;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+}
+html body header .menu-item:hover {
+  background: #1A1B20;
+}
+html body header .burger-checkbox:checked ~ .menu-list {
+  transform: translateX(0);
+}
 html body main {
   margin: 2.8517rem 5rem 0 5rem;
 }
@@ -82,15 +163,14 @@ html body main .promo .promo__img {
   height: 62.3571rem;
   border-radius: 0.8rem;
 }
-html body main .promo .slogan {
-  position: relative;
-}
 html body main .promo .slogan h1 {
   margin: 23.8571rem 0 0 4.3571rem;
   font-size: 5.3571rem;
+  position: relative;
 }
 html body main .promo .slogan .line {
-  margin: -1rem 0 0 4.3571rem;
+  display: block;
+  margin: 1em 0;
   position: absolute;
 }
 html body main .promo .slogan .icons {
@@ -228,13 +308,12 @@ html body main .person .line__shape {
   height: 6.5rem;
 }
 html body main .estimation {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 31.1rem 31.1rem 31.1rem;
+  grid-template-rows: 22.93rem 22.93rem;
   margin: 7.14rem 0;
 }
 html body main .estimation .estimation__1 {
-  width: 29.21rem;
-  height: 22.93rem;
   padding: 3.86rem 4.29rem 3.64rem 3.57rem;
   background-color: black;
   border-radius: 2.29rem;
@@ -279,14 +358,20 @@ html body footer .icons__img {
   width: 17.5rem;
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
-  html {
-    font-size: 13px;
-  }
-}
 @media (max-width: 1024px) {
   html {
     font-size: 12px;
+  }
+  html body main .promo .slogan .sligan__line .line {
+    margin: -0.2em 1.8em;
+    width: 125px;
+  }
+  html body main .estimation {
+    grid-template-columns: 37.1rem 37.1rem 37.1rem;
+    grid-template-rows: 25.93rem 25.93rem;
+  }
+  html body main .estimation .estimation__1 {
+    margin: 0 1.14rem 1.14rem 0;
   }
 }
 @media (max-width: 768px) {
@@ -302,6 +387,12 @@ html body footer .icons__img {
 @media (max-width: 480px) {
   html {
     font-size: 9px;
+  }
+  html body .header .menu__header {
+    display: none;
+  }
+  html body .header .menu__mobile {
+    display: block;
   }
 }
 @media (max-width: 320px) {
