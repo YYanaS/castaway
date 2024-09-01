@@ -163,8 +163,10 @@ html body main .promo .promo__img {
   height: 62.3571rem;
   border-radius: 0.8rem;
 }
-html body main .promo .slogan h1 {
+html body main .promo .slogan {
   margin: 23.8571rem 0 0 4.3571rem;
+}
+html body main .promo .slogan h1 {
   font-size: 5.3571rem;
   position: relative;
 }
@@ -366,6 +368,14 @@ html body footer .icons__img {
     margin: -0.2em 1.8em;
     width: 125px;
   }
+  html body main .person form button {
+    width: 8.2142rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    background-color: #118DA8;
+    color: rgba(254, 254, 254, 0.7);
+    font-size: 1.07rem;
+  }
   html body main .estimation {
     grid-template-columns: 37.1rem 37.1rem 37.1rem;
     grid-template-rows: 25.93rem 25.93rem;
@@ -373,10 +383,29 @@ html body footer .icons__img {
   html body main .estimation .estimation__1 {
     margin: 0 1.14rem 1.14rem 0;
   }
+  html body footer {
+    justify-content: space-evenly;
+  }
+  html body footer .menu__footer, html body footer .menu2__footer, html body footer .icons__img {
+    margin: 0 5rem;
+  }
 }
 @media (max-width: 768px) {
   html {
     font-size: 11px;
+  }
+  html body main .promo .slogan .sligan__line .line {
+    margin: 6rem 0 0 0;
+  }
+  html body main .estimation {
+    grid-template-columns: 61rem 61rem;
+    grid-template-rows: 30rem 30rem 30rem;
+  }
+  html body main .estimation .estimation__1 {
+    margin: 0 1.14rem 1.14rem 0;
+  }
+  html body main .estimation .estimation__1 p {
+    font-size: 40px;
   }
 }
 @media (max-width: 640px) {
