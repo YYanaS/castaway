@@ -23,15 +23,15 @@ h1, h2, h3, h4, p{
 }
 
 h2{
-    font-size: 4.5714rem;
+    font-size: 4.5714em;
 }
 
 h3{
-    font-size: 1.5714rem;
+    font-size: 1.5714em;
 }
 
 h4{
-    font-size: 1.4286rem;
+    font-size: 1.4286em;
 }
 
 html{
@@ -39,9 +39,8 @@ html{
 
     body{
         margin: auto;
-        width: 1440px;
         background-color: #191919;
-    
+
         header{
             display: flex;
             margin: 1.8571em 0;
@@ -143,16 +142,16 @@ html{
                 -webkit-backdrop-filter: blur(10px); /* для поддержки Safari */
                 list-style-type: none;
                 transform: translateY(-100%);
-                width: 102rem;
+                width: 102em;
                 z-index: 1;
                 opacity: 1;
                 transition: .8s;
             }
             .menu-item {
                 display: block;
-                padding: 0.5rem;
+                padding: 0.5em;
                 color: white;
-                font-size: 1.2rem;
+                font-size: 1.2em;
                 text-align: center;
                 text-decoration: none;
             }
@@ -168,22 +167,22 @@ html{
         }
     
         main{
-            margin: 2.8517rem 5rem 0 5rem;
+            margin: 2.8517em 5em 0 5em;
             
             .promo{
                 display: flex;
     
                 .promo__img{
-                    width: 46.4285rem;
-                    height: 62.3571rem;
-                    border-radius: 0.8rem;
+                    width: 46.4285em;
+                    height: 62.3571em;
+                    border-radius: 0.8em;
                 }
     
                 .slogan{
-                    margin: 23.8571rem 0 0 4.3571rem;
+                    margin: 19.8571em 0 0 4.3571em;
                     
                     h1{
-                        font-size: 5.3571rem;
+                        font-size: 5.3571em;
                         position: relative;
 
                     }
@@ -195,109 +194,109 @@ html{
                     }
     
                     .icons{
-                        margin: 6.4285rem 0 0 5.8571rem;
+                        margin: 6.4285em 0 0 5.8571em;
                     }
                     
                     p{
-                        font-size: 1.0714rem;
-                        margin-bottom: 1.1428rem;
+                        font-size: 1.0714em;
+                        margin-bottom: 1.1428em;
                     }
     
                     .icons__img{
                         display: flex;
                         justify-content: space-between;
-                        width: 17.5rem;
+                        width: 17.5em;
                     }
                 }
             }
     
             .menu{
-                margin: 6.6429rem 0 0 0;
+                margin: 6.6429em 0 0 0;
     
                 .heading__menu{
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    margin: 0 0 2.8571rem 0;
+                    margin: 0 0 2.8571em 0;
                 }
                 
                 button{
-                    width: 12.7142rem;
-                    height: 3.6428rem;
-                    border-radius: 0.4285rem;
+                    width: 12.7142em;
+                    height: 3.6428em;
+                    border-radius: 0.4285em;
                     background-color: #118DA8;
-                    font-size: 1.2143rem;
+                    font-size: 1.2143em;
                     color: white;
                 }
     
                 .menu__1{
                     background-color: black;
                     display: flex;
-                    padding: 2.8571rem;
-                    margin: 0 0 4.2857rem 0;
-                    border-radius: 2.2857rem;
+                    padding: 2.8571em;
+                    margin: 0 0 4.2857em 0;
+                    border-radius: 2.2857em;
                 }
     
                 .text__menu{
-                    margin: 0 0 0 3.7857rem;
-                    width: 50.5rem;
+                    margin: 0 0 0 3.7857em;
+                    width: 50.5em;
     
                     h4{
                         background-color: #191919;
-                        padding: 0 0.8rem;
-                        border-radius: 0.4285rem;
+                        padding: 0 0.8em;
+                        border-radius: 0.4285em;
                         display: inline-block;
                     }
     
                     p{
-                        margin: 3.4678rem 0 0 0;
+                        margin: 3.4678em 0 0 0;
                         color: #118DA8;
                     }
     
                     h3{
-                        margin: 3rem 0 0 0;
+                        margin: 3em 0 0 0;
                         color: rgba(255, 255, 255, 0.7);
-                        font-size: 1.5714rem;
+                        font-size: 1.5714em;
                     }
     
                     button{
-                        margin: 2.2857rem 0 0 0;
-                        width: 14.8571rem;
-                        height: 3.6428rem;
+                        margin: 2.2857em 0 0 0;
+                        width: 14.8571em;
+                        height: 3.6428em;
                     }
                 }
     
             }
     
             .person{
-                margin: 11.4286rem 0 7.14rem 0;
+                margin: 11.4286em 0 7.14em 0;
                 position: relative;
     
                 .feedback{
                     display: flex;
                     justify-content: space-between;
-                    margin: 0 0 7.1429rem 0;
+                    margin: 0 0 7.1429em 0;
                 }
     
                 .text__person{
-                    margin: 0 6.7143rem 0 0;
+                    margin: 0 6.7143em 0 0;
                 }
     
                 .arrow{
-                    width: 7.7143rem;
-                    margin: 2rem 0 0 0;
+                    width: 7.7143em;
+                    margin: 2em 0 0 0;
                 }
     
                 .round{
-                    width: 8rem;
-                    height: 8rem;
+                    width: 8em;
+                    height: 8em;
                     background-color: #118DA8;
                     border-radius: 50%;
-                    margin: -6.69rem 0 1.4286rem 0;
+                    margin: -6.69em 0 1.4286em 0;
                 }
     
                 .text__h3{
-                    margin: 2rem 0 3.3571rem 0;
+                    margin: 2em 0 3.3571em 0;
                 }
                 
                 h3{
@@ -309,19 +308,19 @@ html{
                 }
     
                 .shape{
-                    margin: 7.1429rem 3.5714rem;
-                    padding: 4.2143rem 4.2857rem 5.3657rem 4.2857rem;
+                    margin: 7.1429em 3.5714em;
+                    padding: 4.2143em 4.2857em 5.3657em 4.2857em;
                     background-color: black;
                     display: flex;
                     justify-content: space-between;
-                    border-radius: 2.2857rem;
+                    border-radius: 2.2857em;
                 }
                 
                 .text__shape{
-                    width: 30.7857rem;
+                    width: 30.7857em;
     
                     p{
-                        font-size: 5.1429rem;
+                        font-size: 5.1429em;
                     }
                 }
     
@@ -330,50 +329,49 @@ html{
                     flex-direction: column;
     
                     input{
-                        width: 37.29rem;
-                        height: 5.86rem;
-                        border-radius: 0.43rem;
-                        font-size: 1.7142rem;
-                        padding: 1.86rem 1.36rem;
+                        width: 37.29em;
+                        height: 5.86em;
+                        border-radius: 0.43em;
+                        font-size: 1.7142em;
+                        padding: 1.86em 1.36em;
                         background-color: #191919;
-                        margin-bottom: 1.4285rem;
+                        margin-bottom: 1.4285em;
                         border: none;
     
                     }
     
                     button{
-                        width: 6.2142rem;
-                        height: 2rem;
-                        border-radius: 0.43rem;
+                        width: 6.2142em;
+                        height: 2em;
+                        border-radius: 0.43em;
                         background-color: #118DA8;
                         color: rgba(254, 254, 254, 0.700);
-                        font-size: 1.07rem;
+                        font-size: 1.07em;
                     }
                 }
     
                 .line__shape{
-                    margin-top: -11rem;
+                    margin-top: -11em;
                     position: absolute;
-                    width: 10.5rem;
-                    height: 6.5rem;
+                    width: 10.5em;
+                    height: 6.5em;
                 }
             }
     
             .estimation{
                 display: grid;
-                grid-template-columns: 31.1rem 31.1rem 31.1rem;
-                grid-template-rows: 22.93rem 22.93rem;
-                margin: 7.14rem 0;
+                grid-template-columns: repeat(3, 1fr);;
+                margin: 7.14em 0;
     
                 .estimation__1{
-                    padding: 3.86rem 4.29rem 3.64rem 3.57rem;
+                    padding: 3.86em 4.29em 3.64em 3.57em;
                     background-color: black;
-                    border-radius: 2.29rem;
-                    margin: 0 1.14rem 1.14rem 0;
+                    border-radius: 2.29em;
+                    margin: 0 1.14em 1.14em 0;
     
                     p{
-                        font-size: 2.57rem;
-                        margin: 1.5rem 0;
+                        font-size: 2.57em;
+                        margin: 1.5em 0;
                     }
     
                 }
@@ -381,22 +379,22 @@ html{
         }
     
         footer{
-            padding: 7.1428rem 5rem;
+            padding: 7.1428em 5em;
             display: flex;
     
             .logo__footer{
-                width: 31.9385rem;
-                height: 14.8571rem;
+                width: 31.9385em;
+                height: 14.8571em;
                 
                 .logo__2{
-                    width: 15.9157rem;
-                    height: 3.2478rem;
-                    margin: 0 0 1.4571rem 0;
+                    width: 15.9157em;
+                    height: 3.2478em;
+                    margin: 0 0 1.4571em 0;
                 }
     
                 .icons {
                     img{
-                        margin-right: 0.7142rem;
+                        margin-right: 0.7142em;
                     }
                 }
             }
@@ -404,78 +402,93 @@ html{
             .menu__footer, .menu2__footer{
                 display: flex;
                 flex-direction: column;
-                width: 12.7742rem;
-                height: 15.8571rem;
+                width: 12.7742em;
+                height: 15.8571em;
     
             }
     
             a{
                 font-family: DMSans-Regular;
-                font-size: 1.2142rem;
+                font-size: 1.2142em;
                 text-decoration: none;
                 color: white;
-                margin-bottom: 0.7142rem;
+                margin-bottom: 0.7142em;
             }
     
             .icons__img{
                 display: flex;
                 justify-content: space-between;
-                width: 17.5rem;
+                width: 17.5em;
             }
         }
     
     }
 }
 
-// @media (max-width: 1280px){
+ @media (min-width: 1440px){
     
-//     html{
-//         font-size: 13px;
-//     }
-// }
+     html{
+         body{
+            width: 1440px;
+         }
+     }
+ }
+
+ @media (max-width: 1198px){
+    html{
+        font-size: 12px;
+        body {
+            main {
+                .promo {
+                    .promo__img {
+                        width: 40.4285em;
+                        height: 50.3571em;
+                    }
+                    .slogan {
+                        margin: 10.8571em 0 0 4.3571em;
+                    }
+                }
+            }
+        }
+    }
+ }
+
 
 @media (max-width: 1024px){
     html{
-        font-size: 12px;
+        font-size: 11px;
 
         body{
 
-            main{  
-    
-                .promo{
-        
-                    .slogan{
-    
-                        .sligan__line{
-    
-                            .line{
+            main {
+                .promo {
+                    .promo__img {
+                        width: 40.4285em;
+                        height: 50.3571em;
+                    }
+
+                    .slogan {
+                        margin: 15em 0 0 3.3571em;
+
+                        .sligan__line {
+                            .line {
                                 margin: -0.2em 1.8em;
                                 width: 125px;
                             }
                         }
-                        
                     }
                 }
 
-                .person{
-                    form{
+                .person {
+                    form {
                         button {
-                            width: 8.2142rem;
-                            height: 3rem;
-                            border-radius: 0.3rem;
+                            width: 8.2142em;
+                            height: 3em;
+                            border-radius: 0.3em;
                             background-color: #118DA8;
                             color: rgba(254, 254, 254, 0.7);
-                            font-size: 1.07rem;
+                            font-size: 1.07em;
                         }
-                    }
-                } 
-    
-                .estimation{
-                    grid-template-columns: 37.1rem 37.1rem 37.1rem;
-                    grid-template-rows: 25.93rem 25.93rem;
-        
-                    .estimation__1{
-                        margin: 0 1.14rem 1.14rem 0;
                     }
                 }
             }
@@ -484,46 +497,72 @@ html{
                 justify-content: space-evenly;
 
                 .menu__footer, .menu2__footer, .icons__img {
-                    margin: 0 5rem;
+                    margin: 0 5em;
                 }
             }
         }
     }    
 }
 
-@media (max-width: 768px){
+@media (max-width: 970px){
     html{
-        font-size: 11px;
-
+        font-size: 9.5px;
         body{
-
-            main{  
-    
+            main{
                 .promo{
-        
-                    .slogan{
-    
-                        .sligan__line{
-    
-                            .line{
-                                margin: 6rem 0 0 0;
-                            }
-                        }
-                        
+                    .slogan {
+                        margin: 8em 0 0 3.3571em;
                     }
                 }
-    
-                .estimation{
-                   
-                    
-                    grid-template-columns: 61rem 61rem;
-                    grid-template-rows: 30rem 30rem 30rem; 
-        
-                    .estimation__1{
-                        margin: 0 1.14rem 1.14rem 0;
+            }
+        }
+    }
+}
 
-                        p{
-                            font-size: 40px;
+@media (max-width: 768px){
+    html{
+        font-size: 9px;
+
+        body{
+            main{
+                .promo{
+                    .promo__img {
+                        width: 38.4285em;
+                        height: 47.3571em;
+                    }
+                    .slogan {
+                        margin: 3em 0 0 3.3571em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 690px){
+    html{
+        font-size: 9px;
+        body{
+            main{
+                .promo{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    .promo__img {
+                        object-fit: cover;
+                        height: 100%;
+                        width: 100%;
+                    }
+                    .slogan{
+                        margin: 1em 0 0 0;
+                        .icons {
+                            margin: 1em 0 0 0;
+
+                            p{
+                                font-size: 1.5em;
+                            }
+
+
                         }
                     }
                 }
@@ -532,23 +571,15 @@ html{
     }
 }
 
-@media (max-width: 640px){
-    html{
-        font-size: 10px;
-    }
-}
 
-@media (max-width: 480px){
+@media (max-width: 498px){
     html{
-        font-size: 9px;
-        
+        font-size: 7px;
         body{
             .header{
-            
                 .menu__header {
                     display: none;
                 }
-        
                 .menu__mobile {
                     display: block;
                 }
@@ -557,8 +588,8 @@ html{
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 387px){
     html{
-        font-size: 8px;
+        font-size: 5.5px;
     }
 }
