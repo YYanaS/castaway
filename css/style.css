@@ -210,6 +210,9 @@ html body main .menu .menu__1 {
   margin: 0 0 4.2857em 0;
   border-radius: 2.2857em;
 }
+html body main .menu .menu__1 img {
+  max-height: 512px;
+}
 html body main .menu .text__menu {
   margin: 0 0 0 3.7857em;
   width: 50.5em;
@@ -278,15 +281,15 @@ html body main .person .text__shape {
   width: 30.7857em;
 }
 html body main .person .text__shape p {
-  font-size: 5.1429em;
+  font-size: 4.6429em;
 }
 html body main .person form {
   display: flex;
   flex-direction: column;
 }
 html body main .person form input {
-  width: 37.29em;
-  height: 5.86em;
+  width: 28.29em;
+  height: 3.86em;
   border-radius: 0.43em;
   font-size: 1.7142em;
   padding: 1.86em 1.36em;
@@ -363,6 +366,24 @@ html body footer .icons__img {
     width: 1440px;
   }
 }
+@media (max-width: 1373px) {
+  html body main .promo .slogan .sligan__line .line {
+    margin: -0.2em 0 0 1.8em;
+    width: 2em;
+  }
+}
+@media (max-width: 1283px) {
+  html body main .promo .slogan .sligan__line .line {
+    margin: -0.2em 0 0 3em;
+    width: 2em;
+  }
+}
+@media (max-width: 1236px) {
+  html body main .promo .slogan .sligan__line .line {
+    margin: 1em 0 0 0;
+    width: 2em;
+  }
+}
 @media (max-width: 1198px) {
   html {
     font-size: 12px;
@@ -373,6 +394,21 @@ html body footer .icons__img {
   }
   html body main .promo .slogan {
     margin: 10.8571em 0 0 4.3571em;
+  }
+  html body main .promo .slogan .icons__img a {
+    margin-right: 0.5em;
+  }
+}
+@media (max-width: 1105px) {
+  html body main .promo .slogan .sligan__line .line {
+    margin: -0.2em 0 0 1.8em;
+    width: 2em;
+  }
+}
+@media (max-width: 1025px) {
+  html body main .promo .slogan .sligan__line .line {
+    margin: 1.1em 0 0 0;
+    width: 1.8em;
   }
 }
 @media (max-width: 1024px) {
@@ -387,8 +423,10 @@ html body footer .icons__img {
     margin: 15em 0 0 3.3571em;
   }
   html body main .promo .slogan .sligan__line .line {
-    margin: -0.2em 1.8em;
-    width: 125px;
+    width: 2em;
+  }
+  html body main .promo .slogan .icons__img {
+    width: 20.5em;
   }
   html body main .person form button {
     width: 8.2142em;
@@ -405,12 +443,33 @@ html body footer .icons__img {
     margin: 0 5em;
   }
 }
+@media (max-width: 1001px) {
+  html body main .promo .slogan .sligan__line .line {
+    margin: -0.2em 0 0 1.8em;
+  }
+}
 @media (max-width: 970px) {
   html {
     font-size: 9.5px;
   }
   html body main .promo .slogan {
     margin: 8em 0 0 3.3571em;
+  }
+  html body main .promo .slogan .sligan__line .line {
+    margin: -0.2em 0 0 3em;
+  }
+  html body main .promo .slogan .icons__img {
+    width: 21.5em;
+  }
+}
+@media (max-width: 947px) {
+  html body main .promo .slogan .sligan__line .line {
+    margin: 1em 0 0 0em;
+  }
+}
+@media (max-width: 865px) {
+  html body main .promo .slogan .sligan__line .line {
+    margin: -0.2em 0 0 1.8em;
   }
 }
 @media (max-width: 768px) {
@@ -424,6 +483,9 @@ html body footer .icons__img {
   html body main .promo .slogan {
     margin: 3em 0 0 3.3571em;
   }
+  html body main .promo .slogan .icons__img {
+    width: 22.5em;
+  }
 }
 @media (max-width: 690px) {
   html {
@@ -435,12 +497,19 @@ html body footer .icons__img {
     justify-content: space-evenly;
   }
   html body main .promo .promo__img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 100%;
     width: 100%;
   }
   html body main .promo .slogan {
     margin: 1em 0 0 0;
+  }
+  html body main .promo .slogan .sligan__line .line {
+    margin: 1.1em 0 0 0;
+  }
+  html body main .promo .slogan .icons__img {
+    width: 23.5em;
   }
   html body main .promo .slogan .icons {
     margin: 1em 0 0 0;
@@ -449,14 +518,40 @@ html body footer .icons__img {
     font-size: 1.5em;
   }
 }
+@media (max-width: 644px) {
+  html body main .promo .slogan .sligan__line .line {
+    margin: -0.2em 0 0 1.8em;
+  }
+}
+@media (max-width: 557px) {
+  html body main .promo .slogan .sligan__line .line {
+    margin: -0.2em 0 0 3.05em;
+  }
+}
 @media (max-width: 498px) {
   html {
     font-size: 7px;
   }
-  html body .header .menu__header {
+  html body main .promo .slogan .sligan__line .line {
+    margin: -0.2em 0 0 1.8em;
+  }
+  html body main .promo .slogan .icons__img {
+    width: 24.5em;
+  }
+  html body main .promo .slogan .icons__img a {
+    margin-right: 1em;
+  }
+}
+@media (max-width: 433px) {
+  html body main .promo .slogan .sligan__line .line {
+    margin: -0.2em 0 0 3.05em;
+  }
+}
+@media (max-width: 425px) {
+  html body header .menu__header {
     display: none;
   }
-  html body .header .menu__mobile {
+  html body header .menu__mobile {
     display: block;
   }
 }
@@ -464,6 +559,18 @@ html body footer .icons__img {
   html {
     font-size: 5.5px;
   }
+  html body main .promo .slogan .sligan__line .line {
+    margin: -0.2em 0 0 1.8em;
+  }
+  html body main .promo .slogan .icons__img {
+    width: 25.5em;
+  }
+  html body main .promo .slogan .icons__img a {
+    margin-right: 1.5em;
+  }
 }
-
-/*# sourceMappingURL=style.css.map */
+@media (max-width: 341px) {
+  html body main .promo .slogan .sligan__line .line {
+    margin: -0.2em 0 0 3.05em;
+  }
+}/*# sourceMappingURL=style.css.map */
