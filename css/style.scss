@@ -333,7 +333,7 @@ html{
                     flex-direction: column;
     
                     input{
-                        width: 28.29em;
+                        width: 25.29em;
                         height: 3.86em;;
                         border-radius: 0.43em;
                         font-size: 1.7142em;
@@ -372,6 +372,7 @@ html{
                     background-color: black;
                     border-radius: 2.29em;
                     margin: 0 1.14em 1.14em 0;
+
     
                     p{
                         font-size: 2.57em;
@@ -467,6 +468,25 @@ html{
                             .line {
                                 margin: -0.2em 0 0 3em;
                                 width: 2em;
+                            }
+                        }
+                    }
+                }
+
+                .person{
+                    .shape {
+                        padding: 3.2143em 3.2857em 3.3657em 3.2857em;
+
+                        .text__shape {
+                            p {
+                                font-size: 4em;
+                            }
+                        }
+
+                        form{
+                            input {
+                                height: 3em;
+                                width: 22em;
                             }
                         }
                     }
@@ -855,7 +875,22 @@ html{
                             height: 100%;
                         }
                     }
+
+                    .shape {
+                        flex-direction: column;
+
+                        form{
+                            input {
+                                width: 100%;
+                            }
+                        }
+                    }
                 }
+
+                //.estimation{
+                //    grid-template-columns: repeat(2, 1fr);;
+                //    min-width: 100%;
+                //}
             }
         }
     }

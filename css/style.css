@@ -288,7 +288,7 @@ html body main .person form {
   flex-direction: column;
 }
 html body main .person form input {
-  width: 28.29em;
+  width: 25.29em;
   height: 3.86em;
   border-radius: 0.43em;
   font-size: 1.7142em;
@@ -376,6 +376,16 @@ html body footer .icons__img {
   html body main .promo .slogan .sligan__line .line {
     margin: -0.2em 0 0 3em;
     width: 2em;
+  }
+  html body main .person .shape {
+    padding: 3.2143em 3.2857em 3.3657em 3.2857em;
+  }
+  html body main .person .shape .text__shape p {
+    font-size: 4em;
+  }
+  html body main .person .shape form input {
+    height: 3em;
+    width: 22em;
   }
 }
 @media (max-width: 1236px) {
@@ -555,6 +565,12 @@ html body footer .icons__img {
   html body main .person .feedback .mann {
     height: 100%;
   }
+  html body main .person .shape {
+    flex-direction: column;
+  }
+  html body main .person .shape form input {
+    width: 100%;
+  }
 }
 @media (max-width: 690px) {
   html {
@@ -566,8 +582,7 @@ html body footer .icons__img {
     justify-content: space-evenly;
   }
   html body main .promo .promo__img {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     height: 100%;
     width: 100%;
   }
@@ -666,4 +681,6 @@ html body footer .icons__img {
   html body main .promo .slogan .sligan__line .line {
     margin: -0.2em 0 0 3.05em;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
